@@ -69,7 +69,7 @@ on most Linux systems.
 |Distro      | Stable           | Nightly             |
 |------------|------------------|---------------------|
 |CentOS8     |[{{ centos8_rpm_stable_asset }}]({{ centos8_rpm_stable }}) |[{{ centos8_rpm_nightly_asset }}]({{ centos8_rpm_nightly }})|
-|CentOS9     |Nightly builds only|[{{ centos9_rpm_nightly_asset }}]({{ centos9_rpm_nightly }})|
+|CentOS9     |[{{ centos9_rpm_stable_asset }}]({{ centos9_rpm_stable }})|[{{ centos9_rpm_nightly_asset }}]({{ centos9_rpm_nightly }})|
 |Fedora33    |[{{ fedora33_rpm_stable_asset }}]({{ fedora33_rpm_stable }}) |[{{ fedora33_rpm_nightly_asset }}]({{ fedora33_rpm_nightly }})|
 |Fedora34    |[{{ fedora34_rpm_stable_asset }}]({{ fedora34_rpm_stable }}) |[{{ fedora34_rpm_nightly_asset }}]({{ fedora34_rpm_nightly }})|
 |Fedora35    |[{{ fedora35_rpm_stable_asset }}]({{ fedora35_rpm_stable }}) |[{{ fedora35_rpm_nightly_asset }}]({{ fedora35_rpm_nightly }})|
@@ -95,6 +95,17 @@ wish to use one of these AUR options:
 |---------------------|-|
 |Nightly Binaries     |<https://aur.archlinux.org/packages/wezterm-nightly-bin/>|
 |Build from source    |<https://aur.archlinux.org/packages/wezterm-git/>|
+
+## Alpine Linux
+
+APKs are built out from the `main` branch.
+
+|Version | Stable        | Nightly |
+|--------|---------------|---------|
+| 3.12   |               |[{{ alpine3_12_apk_nightly_asset }}]({{ alpine3_12_apk_nightly }})|
+| 3.13   |               |[{{ alpine3_13_apk_nightly_asset }}]({{ alpine3_13_apk_nightly }})|
+| 3.14   |               |[{{ alpine3_14_apk_nightly_asset }}]({{ alpine3_14_apk_nightly }})|
+| 3.15   |               |[{{ alpine3_15_apk_nightly_asset }}]({{ alpine3_15_apk_nightly }})|
 
 ## Linuxbrew Tap
 
